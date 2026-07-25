@@ -1,14 +1,19 @@
-# Justin Fagan — GitHub Work
+# Justin Fagan — Working Repositories
 
-A lightweight index of selected public repositories by [Justin Fagan](https://github.com/thejustinfagan).
+A lightweight index of the repositories Justin Fagan actively builds and uses, regardless of whether their source is public or private.
 
 **Live:** https://thejustinfagan.github.io/
 
-## Featured areas
+## Selection method
 
-- Commercial intelligence and data products
-- Agentic discovery and specification systems
-- Timeline-native games and interactive experiments
+Projects are prioritized using authenticated GitHub activity, push recency, repository depth, and current operational relevance. Private repositories receive high-level product explanations without exposing source code, internal data, credentials, or implementation details that should remain private.
+
+## Areas represented
+
+- Commercial and opportunity intelligence
+- Timeline-native games and testing infrastructure
+- Public-record and site diligence
+- Discovery, curation, and operating systems
 
 ## Stack
 

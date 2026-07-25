@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Justin Fagan — GitHub Work</title>
-  <meta name="description" content="Selected public repositories by Justin Fagan: commercial intelligence, agent systems, and interactive experiments.">
+  <title>Justin Fagan — Most-Used Repositories</title>
+  <meta name="description" content="The repositories Justin Fagan uses most: commercial intelligence, agent systems, and timeline-native products across public and private work.">
   <link rel="canonical" href="https://thejustinfagan.github.io/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Justin Fagan — GitHub Work">
-  <meta property="og:description" content="Commercial intelligence, agent systems, and interactive experiments—built in public.">
+  <meta property="og:title" content="Justin Fagan — Most-Used Repositories">
+  <meta property="og:description" content="A concise index of the public and private repositories behind Justin Fagan’s most active work.">
   <meta property="og:url" content="https://thejustinfagan.github.io/">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -21,8 +21,8 @@
     <div class="wrap header-row">
       <a class="wordmark" href="/" aria-label="Justin Fagan home">JF</a>
       <nav aria-label="Primary navigation">
-        <a href="#featured">Selected work</a>
-        <a href="#more">More repos</a>
+        <a href="#core">Core systems</a>
+        <a href="#active">More active work</a>
         <a href="https://github.com/thejustinfagan">GitHub ↗</a>
       </nav>
     </div>
@@ -30,122 +30,146 @@
 
   <main id="main">
     <section class="hero wrap" aria-labelledby="hero-title">
-      <p class="eyebrow">Justin Fagan · @thejustinfagan</p>
-      <h1 id="hero-title">Projects built to make complex systems useful.</h1>
-      <p class="hero-copy">Commercial intelligence, agent workflows, and interactive experiments. This page is a short index of the public repositories that best represent my work.</p>
+      <p class="eyebrow">Justin Fagan · working repositories</p>
+      <h1 id="hero-title">The systems I actually build and use.</h1>
+      <p class="hero-copy">This is not a list of whichever repositories happen to be public. It is a curated view of the work I return to most—prioritized from authenticated GitHub activity, recent pushes, and repository depth. Private projects are described at a useful level without exposing their source or internal data.</p>
       <div class="hero-actions">
-        <a class="button button--primary" href="#featured">Browse selected work</a>
-        <a class="button" href="https://github.com/thejustinfagan?tab=repositories">View all repositories ↗</a>
+        <a class="button button--primary" href="#core">See the core systems</a>
+        <a class="button" href="https://github.com/thejustinfagan?tab=repositories">Browse public repositories ↗</a>
       </div>
       <dl class="profile-facts">
-        <div><dt>Public</dt><dd>repositories and experiments</dd></div>
-        <div><dt>3</dt><dd>main areas of work</dd></div>
-        <div><dt>Active</dt><dd>currently building</dd></div>
+        <div><dt>Active</dt><dd>current working systems</dd></div>
+        <div><dt>Public + private</dt><dd>ranked by use, not visibility</dd></div>
+        <div><dt>Evidence-led</dt><dd>described by what each system does</dd></div>
       </dl>
     </section>
 
-    <section class="section wrap" id="featured" aria-labelledby="featured-title">
+    <section class="section wrap" id="core" aria-labelledby="core-title">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">Selected work</p>
-          <h2 id="featured-title">Repositories worth opening first</h2>
+          <p class="eyebrow">Core systems</p>
+          <h2 id="core-title">The repositories carrying the most work</h2>
         </div>
-        <p>Six projects across product intelligence, agentic systems, and timeline-native play.</p>
+        <p>High-activity products and infrastructure with substantial implementation depth.</p>
       </div>
 
       <div class="repo-grid">
-        <article class="repo-card">
-          <div class="repo-meta"><span class="category">Interactive systems</span><span class="language"><i class="dot dot--html"></i>HTML</span></div>
-          <h3><a href="https://github.com/thejustinfagan/threadplay.co">threadplay.co</a></h3>
-          <p>The public home for a timeline-native gaming ecosystem designed around passive, social, reply-driven play.</p>
-          <ul class="tags" aria-label="Topics"><li>Timeline games</li><li>Product design</li><li>Web</li></ul>
-          <a class="repo-link" href="https://github.com/thejustinfagan/threadplay.co">View repository <span aria-hidden="true">→</span></a>
+        <article class="repo-card repo-card--private">
+          <div class="repo-meta"><span class="category">Commercial intelligence</span><span class="visibility visibility--private">Private</span></div>
+          <h3>fleet-intel</h3>
+          <p>Fleet Intel is the working commercial-intelligence platform for finding and evaluating trucking fleets, facilities, and sales opportunities across the United States.</p>
+          <p class="repo-detail"><strong>How it is used:</strong> combines carrier authority and safety records, facility evidence, maps and imagery, company matching, account context, and report generation so a large market becomes a prioritized field plan.</p>
+          <div class="repo-footer"><span class="language"><i class="dot dot--typescript"></i>TypeScript</span><span class="private-note">Private working repository</span></div>
         </article>
 
-        <article class="repo-card">
-          <div class="repo-meta"><span class="category">Interactive systems</span><span class="language"><i class="dot dot--typescript"></i>TypeScript</span></div>
-          <h3><a href="https://github.com/thejustinfagan/the-straits">the-straits</a></h3>
-          <p>Naval fleet battles set at history’s greatest chokepoints, with player and operator interfaces.</p>
-          <ul class="tags" aria-label="Topics"><li>Strategy game</li><li>Simulation</li><li>Multiplayer</li></ul>
-          <a class="repo-link" href="https://github.com/thejustinfagan/the-straits">View repository <span aria-hidden="true">→</span></a>
+        <article class="repo-card repo-card--private">
+          <div class="repo-meta"><span class="category">Timeline-native games</span><span class="visibility visibility--private">Private</span></div>
+          <h3>Battle_Dinghy</h3>
+          <p>Battle Dinghy is a multiplayer Battleship-style game designed to run through social posts rather than inside a conventional game client.</p>
+          <p class="repo-detail"><strong>How it is used:</strong> manages challenges, turns, shots, persistent game state, visual board renders, player statistics, and the bot behavior required to operate a complete match on the timeline.</p>
+          <div class="repo-footer"><span class="language"><i class="dot dot--python"></i>Python</span><span class="private-note">Private working repository</span></div>
         </article>
 
-        <article class="repo-card">
-          <div class="repo-meta"><span class="category">Commercial intelligence</span><span class="language"><i class="dot dot--typescript"></i>TypeScript</span></div>
-          <h3><a href="https://github.com/thejustinfagan/ducs-ai-webapp">ducs-ai-webapp</a></h3>
-          <p>A searchable contact-intelligence and CRM workspace for more than 27,000 franchise-development contacts.</p>
-          <ul class="tags" aria-label="Topics"><li>Search</li><li>CRM</li><li>Contact intelligence</li></ul>
-          <a class="repo-link" href="https://github.com/thejustinfagan/ducs-ai-webapp">View repository <span aria-hidden="true">→</span></a>
+        <article class="repo-card repo-card--private">
+          <div class="repo-meta"><span class="category">Testing infrastructure</span><span class="visibility visibility--private">Private</span></div>
+          <h3>threadplay-simulator</h3>
+          <p>A pixel-faithful social-network simulator for testing real ThreadPlay application code without depending on a live platform or production account.</p>
+          <p class="repo-detail"><strong>How it is used:</strong> provides an X-compatible fake API, repeatable multiplayer scenarios, deterministic test runs, and realistic marketing captures for Battle Dinghy and future ThreadPlay games.</p>
+          <div class="repo-footer"><span class="language"><i class="dot dot--python"></i>Python</span><span class="private-note">Private working repository</span></div>
         </article>
 
-        <article class="repo-card">
-          <div class="repo-meta"><span class="category">Commercial intelligence</span><span class="language"><i class="dot dot--typescript"></i>TypeScript</span></div>
-          <h3><a href="https://github.com/thejustinfagan/vin-intelligence">vin-intelligence</a></h3>
-          <p>A commercial-vehicle VIN collection, validation, and enrichment pipeline producing clean downstream datasets.</p>
-          <ul class="tags" aria-label="Topics"><li>Vehicle data</li><li>ETL</li><li>Enrichment</li></ul>
-          <a class="repo-link" href="https://github.com/thejustinfagan/vin-intelligence">View repository <span aria-hidden="true">→</span></a>
+        <article class="repo-card repo-card--private">
+          <div class="repo-meta"><span class="category">Public-record intelligence</span><span class="visibility visibility--private">Private</span></div>
+          <h3>real-audit</h3>
+          <p>RealAudit is a national, CLI-first diligence engine for counterparty, property, and real-estate deal research using public records.</p>
+          <p class="repo-detail"><strong>How it is used:</strong> turns source-backed records into findings, severity and confidence scores, limitations, red flags, and recommended next checks while keeping professional verification explicit.</p>
+          <div class="repo-footer"><span class="language"><i class="dot dot--python"></i>Python</span><span class="private-note">Private working repository</span></div>
         </article>
 
-        <article class="repo-card">
-          <div class="repo-meta"><span class="category">Agent systems</span><span class="language"><i class="dot dot--docs"></i>Framework</span></div>
-          <h3><a href="https://github.com/thejustinfagan/agentic-discovery-os">agentic-discovery-os</a></h3>
-          <p>A seven-agent operating system that turns messy discovery into structured insight, specification, and product improvement.</p>
-          <ul class="tags" aria-label="Topics"><li>Discovery</li><li>Multi-agent</li><li>Product specs</li></ul>
-          <a class="repo-link" href="https://github.com/thejustinfagan/agentic-discovery-os">View repository <span aria-hidden="true">→</span></a>
+        <article class="repo-card repo-card--private">
+          <div class="repo-meta"><span class="category">Opportunity intelligence</span><span class="visibility visibility--private">Private</span></div>
+          <h3>signal-foundry</h3>
+          <p>Signal Foundry converts saved external evidence into structured opportunity intelligence rather than leaving it as an unsearchable bookmark archive.</p>
+          <p class="repo-detail"><strong>How it is used:</strong> captures source trails, segments signals, records contradictions, extracts reusable capabilities, identifies macro patterns, and routes evidence toward active workflows.</p>
+          <div class="repo-footer"><span class="language"><i class="dot dot--python"></i>Python</span><span class="private-note">Private working repository</span></div>
         </article>
 
-        <article class="repo-card">
-          <div class="repo-meta"><span class="category">Agent systems</span><span class="language"><i class="dot dot--docs"></i>Framework</span></div>
-          <h3><a href="https://github.com/thejustinfagan/spec-advisory-councils">spec-advisory-councils</a></h3>
-          <p>A recursive specification framework combining Six Thinking Hats, specialist councils, mediation, and traceable convergence.</p>
-          <ul class="tags" aria-label="Topics"><li>Specifications</li><li>Six Hats</li><li>AI coding</li></ul>
-          <a class="repo-link" href="https://github.com/thejustinfagan/spec-advisory-councils">View repository <span aria-hidden="true">→</span></a>
+        <article class="repo-card repo-card--private">
+          <div class="repo-meta"><span class="category">Discovery product</span><span class="visibility visibility--private">Private</span></div>
+          <h3>swipenft</h3>
+          <p>SwipeNFT is a mobile-first discovery product for browsing curated NFT collections and artists with a simple swipe interaction.</p>
+          <p class="repo-detail"><strong>How it is used:</strong> runs separate PFP and Tezos-artist editions from one codebase, publishes curated weekly pools, tracks likes, and keeps live marketplace dependencies out of the swipe path.</p>
+          <div class="repo-footer"><span class="language"><i class="dot dot--typescript"></i>TypeScript</span><span class="private-note">Private working repository</span></div>
         </article>
       </div>
     </section>
 
-    <section class="section section--compact wrap" id="more" aria-labelledby="more-title">
+    <section class="section section--compact wrap" id="active" aria-labelledby="active-title">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">More repositories</p>
-          <h2 id="more-title">Additional public work</h2>
+          <p class="eyebrow">More active work</p>
+          <h2 id="active-title">Other repositories in regular use</h2>
         </div>
+        <p>Supporting products, operational surfaces, and focused commercial tools.</p>
       </div>
 
-      <div class="repo-list">
-        <a class="repo-row" href="https://github.com/thejustinfagan/ai-whiteboard">
-          <span><strong>ai-whiteboard</strong><small>Turn Excalidraw sketches into specs, wireframes, diagrams, and stories with Claude.</small></span>
-          <span class="language"><i class="dot dot--typescript"></i>TypeScript</span>
-        </a>
-        <a class="repo-row" href="https://github.com/thejustinfagan/louisville-hd-truck-dashboard">
-          <span><strong>louisville-hd-truck-dashboard</strong><small>Daily fuel, news, market, and distributor intelligence for heavy-duty trucking.</small></span>
-          <span class="language"><i class="dot dot--python"></i>Python</span>
-        </a>
-        <a class="repo-row" href="https://github.com/thejustinfagan/reseller-intel">
-          <span><strong>reseller-intel</strong><small>Truck-parts buyer research, market analysis, and commercial prospect intelligence.</small></span>
-          <span class="language"><i class="dot dot--typescript"></i>TypeScript</span>
-        </a>
-        <a class="repo-row" href="https://github.com/thejustinfagan/monopoly">
-          <span><strong>monopoly</strong><small>A complete, self-contained Monopoly game that runs entirely in the browser.</small></span>
-          <span class="language"><i class="dot dot--javascript"></i>JavaScript</span>
-        </a>
-        <a class="repo-row" href="https://github.com/thejustinfagan/florida-license-reminders">
-          <span><strong>florida-license-reminders</strong><small>A free license-renewal reminder service for Florida real-estate professionals.</small></span>
-          <span class="language"><i class="dot dot--html"></i>HTML</span>
-        </a>
-        <a class="repo-row" href="https://github.com/thejustinfagan/mission-control">
-          <span><strong>mission-control</strong><small>A workspace for coordinating priorities, operating loops, and agent-driven work.</small></span>
-          <span class="language"><i class="dot dot--typescript"></i>TypeScript</span>
-        </a>
+      <div class="repo-grid">
+        <article class="repo-card repo-card--private">
+          <div class="repo-meta"><span class="category">Data review</span><span class="visibility visibility--private">Private</span></div>
+          <h3>ducs-live-feed</h3>
+          <p>A mobile-first review feed for spot-checking DUCS contact and public-record enrichment output.</p>
+          <p class="repo-detail"><strong>Operational role:</strong> packages fresh pipeline results into a deployable review surface so quality, gaps, and suspicious records can be inspected quickly away from the full data workflow.</p>
+          <div class="repo-footer"><span class="language"><i class="dot dot--python"></i>Python</span><span class="private-note">Private working repository</span></div>
+        </article>
+
+        <article class="repo-card repo-card--private">
+          <div class="repo-meta"><span class="category">Site intelligence</span><span class="visibility visibility--private">Private</span></div>
+          <h3>dc-land-intel</h3>
+          <p>A prospecting workspace for data-center and power-intensive development opportunities.</p>
+          <p class="repo-detail"><strong>Operational role:</strong> brings acreage, power proximity, development stage, mapping, satellite evidence, and prospect review into one interface for evaluating candidate sites.</p>
+          <div class="repo-footer"><span class="language"><i class="dot dot--typescript"></i>TypeScript</span><span class="private-note">Private working repository</span></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-meta"><span class="category">Commercial intelligence</span><span class="visibility visibility--public">Public</span></div>
+          <h3><a href="https://github.com/thejustinfagan/reseller-intel">reseller-intel</a></h3>
+          <p>Market and prospect intelligence for heavy-duty truck-parts reseller discovery.</p>
+          <p class="repo-detail"><strong>Operational role:</strong> turns company datasets into deduplicated markets, buyer segments, personas, geographic opportunities, and prioritized research for commercial teams.</p>
+          <div class="repo-footer"><span class="language"><i class="dot dot--typescript"></i>TypeScript</span><a class="repo-link" href="https://github.com/thejustinfagan/reseller-intel">View repository →</a></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-meta"><span class="category">Operating system</span><span class="visibility visibility--public">Public</span></div>
+          <h3><a href="https://github.com/thejustinfagan/mission-control">mission-control</a></h3>
+          <p>A focused control surface for making active priorities, work orders, operating loops, and evidence visible.</p>
+          <p class="repo-detail"><strong>Operational role:</strong> helps coordinate ongoing agent-assisted work without treating one dashboard as the container for every system or source of truth.</p>
+          <div class="repo-footer"><span class="language"><i class="dot dot--typescript"></i>TypeScript</span><a class="repo-link" href="https://github.com/thejustinfagan/mission-control">View repository →</a></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-meta"><span class="category">Strategy game</span><span class="visibility visibility--public">Public</span></div>
+          <h3><a href="https://github.com/thejustinfagan/the-straits">the-straits</a></h3>
+          <p>A naval strategy game built around fleet battles at historically significant geographic chokepoints.</p>
+          <p class="repo-detail"><strong>Operational role:</strong> supports player onboarding, multi-player matches, easy-mode play, operator controls, and repeatable interface testing within the wider ThreadPlay ecosystem.</p>
+          <div class="repo-footer"><span class="language"><i class="dot dot--typescript"></i>TypeScript</span><a class="repo-link" href="https://github.com/thejustinfagan/the-straits">View repository →</a></div>
+        </article>
+
+        <article class="repo-card">
+          <div class="repo-meta"><span class="category">Product identity</span><span class="visibility visibility--public">Public</span></div>
+          <h3><a href="https://github.com/thejustinfagan/threadplay.co">threadplay.co</a></h3>
+          <p>The public product home for ThreadPlay, a family of passive games designed to live inside social timelines.</p>
+          <p class="repo-detail"><strong>Operational role:</strong> explains the ecosystem, demonstrates timeline-native play, and gives Battle Dinghy, The Straits, and future games one coherent public identity.</p>
+          <div class="repo-footer"><span class="language"><i class="dot dot--html"></i>HTML</span><a class="repo-link" href="https://github.com/thejustinfagan/threadplay.co">View repository →</a></div>
+        </article>
       </div>
     </section>
 
     <section class="closing wrap" aria-labelledby="closing-title">
-      <p class="eyebrow">The rest of the work</p>
-      <h2 id="closing-title">There’s more in the repository list.</h2>
-      <p>Experiments, dashboards, games, market tools, reminders, and working systems—kept public when the code or approach may be useful to someone else.</p>
+      <p class="eyebrow">Public source</p>
+      <h2 id="closing-title">Open repositories remain available on GitHub.</h2>
+      <p>Private repositories are intentionally summarized rather than linked. Public source, experiments, and smaller utilities remain available from the full repository list.</p>
       <div class="hero-actions">
-        <a class="button button--primary" href="https://github.com/thejustinfagan?tab=repositories">Browse all repositories ↗</a>
+        <a class="button button--primary" href="https://github.com/thejustinfagan?tab=repositories">Browse public repositories ↗</a>
         <a class="button" href="mailto:justin.fagan@gmail.com">Email Justin</a>
       </div>
     </section>
