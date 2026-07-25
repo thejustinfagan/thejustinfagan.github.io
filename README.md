@@ -1,34 +1,26 @@
-# Justin Fagan — GitHub Pages Portfolio
+# Justin Fagan — GitHub Work
 
-Public portfolio for [Justin Fagan](https://github.com/thejustinfagan), deployed at:
+A lightweight index of selected public repositories by [Justin Fagan](https://github.com/thejustinfagan).
 
-**https://thejustinfagan.github.io/**
+**Live:** https://thejustinfagan.github.io/
 
-## What it profiles
+## Featured areas
 
-- Commercial growth and product strategy
-- Customer-backed operating method
-- Fleet Intel / Fleet Radar
-- Data Center + Power Plant Intel
-- Selected commercial outcomes
-- Leadership background and contact information
+- Commercial intelligence and data products
+- Agentic discovery and specification systems
+- Timeline-native games and interactive experiments
 
-## Technical experience
+## Stack
 
-- Raw WebGL2 fragment shader with CSS fallback
-- Fully static reduced-motion mode
-- Responsive editorial layout and safe-area support
-- Accessible native dialog and mobile navigation
-- Self-hosted fonts and optimized local imagery
+- Static HTML and CSS
+- No framework, build step, JavaScript runtime, or external font dependency
+- Automatic light/dark color scheme
+- GitHub Pages deployment through `.github/workflows/pages.yml`
 
 ## Local preview
 
 ```bash
-python3 -m http.server 4173
+python3 -m http.server 4175
 ```
 
-Then open `http://localhost:4173`.
-
-## Deployment
-
-Pushes to `main` deploy through `.github/workflows/pages.yml` using GitHub’s official Pages actions.
+Then open `http://localhost:4175`.
